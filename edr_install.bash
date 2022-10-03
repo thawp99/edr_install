@@ -17,7 +17,7 @@ else
 fi
 #####
 echo "Configur CrowdStrike CID"
-/opt/CrowdStrike/falconctl -s --cid=FBBD0FBD09CF4672B82E9DDD0C5F6511-AB && \
+/opt/CrowdStrike/falconctl -s --cid=xxxxxxxxxxxxxxxxxxxxxxx && \
 /opt/CrowdStrike/falconctl -s --tags=FalconGroupingTags/DevOps,MonitorMode 
 
 echo "Start Service"
